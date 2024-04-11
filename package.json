@@ -1,0 +1,16 @@
+{
+  "name": "devpro",
+  "version": "1.0.0",
+  "description": "challenge\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dcode\u001b[C\u001b[C\u001bhallenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "npm",
+    "init"
+  ],
+  "author": "Felipe",
+  "license": "ISC"
+}
