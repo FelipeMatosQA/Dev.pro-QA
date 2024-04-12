@@ -9,11 +9,6 @@ const { randomUUID } = require('crypto');
 describe('Logger Function', () => {
     
 
-    afterEach(() => {
-        // Cleanup: delete test log file after all tests are done
-        
-    });
-
     test('should append log message to file', async () => {
 
         const fileName = "" + Math.floor(100000 + Math.random() * 900000);
@@ -52,7 +47,7 @@ describe('Logger Function', () => {
       });
 
 
-      test("should validate the whole format of the log line",async ()=>{
+      test("should validate the whole format of the log line", async ()=>{
         const fileName = "" + Math.floor(100000 + Math.random() * 900000);
         
         const message = "Test log message";
